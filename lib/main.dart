@@ -27,7 +27,7 @@ class _OstadAppState extends State<OstadApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Greeting app', ),backgroundColor: Colors.white,),
+      appBar: AppBar(title: Text('Greeting app',style: TextStyle(color: Colors.black ),backgroundColor: Colors.,),
       body: Center(
         child: Column(
           children: [
